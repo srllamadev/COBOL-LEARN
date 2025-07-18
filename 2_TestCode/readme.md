@@ -36,42 +36,14 @@
 ## Compilación y Ejecución
 
 Para compilar y ejecutar el programa, usa:
-
+#Para ejecutar
 ```bash
 cobc -x INTERES-COMPUESTO.cbl
 ./INTERES-COMPUESTO
-Formato Libre
-Si prefieres mantener los caracteres especiales, compila con:
+```
+## Codigo Completo
+```bash
 
-
-
-
-cobc -x -free INTERES-COMPUESTO.cbl
-Nueva Variable Agregada
-cobol
-
-
-77  RENTABILIDAD      PIC 999V99.   *> Nueva variable
-Cálculo de Rentabilidad
-Antes de la condicional IF:
-
-cobol
-
-
-COMPUTE RENTABILIDAD = 
-    (SALDO-ACTUAL - PRINCIPAL) / PRINCIPAL * 100
-Uso de la variable en la condición:
-
-cobol
-
-IF RENTABILIDAD > 30
-Solución al Warning Final
-Para evitar el warning "line not terminated by a newline", agrega una línea vacía al final del archivo.
-
-Código Completo
-cobol
-
-Copiar
        IDENTIFICATION DIVISION.
        PROGRAM-ID. INTERES-COMPUESTO.
        DATA DIVISION.
@@ -162,7 +134,4 @@ Copiar
            MOVE FUNCTION CURRENT-DATE TO FECHA-HOY.
 
 
-#Para ejecutar
-```bash
-cobc -x INTERES-COMPUESTO.cbl
-./INTERES-COMPUESTO
+
