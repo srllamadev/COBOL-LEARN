@@ -160,3 +160,9 @@ Copiar
 
        OBTENER-FECHA.
            MOVE FUNCTION CURRENT-DATE TO FECHA-HOY.
+
+
+#Para ejecutar
+```bash
+cobc -x INTERES-COMPUESTO.cbl
+./INTERES-COMPUESTO
