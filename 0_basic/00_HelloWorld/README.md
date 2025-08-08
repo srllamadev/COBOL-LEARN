@@ -11,10 +11,7 @@ cobc -x HOLA.cbl
 
 ```bash
 cobc -x -free HOLA.cbl
-
-Perfecto, te voy a documentar tu código COBOL línea por línea en **formato Markdown**, explicando cada palabra reservada y lo que hace en este contexto.
-
-Aquí tienes el resultado listo para que lo subas a tu GitHub:
+```
 
 ---
 
