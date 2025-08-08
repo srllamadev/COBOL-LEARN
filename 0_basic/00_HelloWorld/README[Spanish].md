@@ -91,7 +91,7 @@ cobc -x -free HOLA.cbl
 
 ---
 
-## 📌 Resumen visual de las divisiones en COBOL
+## Resumen visual de las divisiones en COBOL
 
 | División           | Propósito                                                         |
 | ------------------ | ----------------------------------------------------------------- |
@@ -102,4 +102,3 @@ cobc -x -free HOLA.cbl
 
 ---
 
-Si quieres, puedo hacerte **otra versión del mismo documento pero con un diagrama visual** para que en tu GitHub sea más amigable y atractivo.
