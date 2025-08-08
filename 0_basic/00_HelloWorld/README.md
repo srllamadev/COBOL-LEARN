@@ -32,12 +32,10 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`PROGRAM-ID`**:
-  Palabra reservada para declarar el **nombre del programa**.
-  Después de esta palabra, se escribe el identificador (en este caso `HOLA`) que representa al programa.
 
   Reserved word to declare the **program name**. After this word, the identifier (in this case `HOLA`) that represents the program is written.
 
-* **`HOLA`**:
+* **`HELLO`**:
   Nombre asignado al programa. No puede contener espacios y suele escribirse en mayúsculas por convención.
 
 ---
@@ -78,6 +76,7 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`DISPLAY`**:
+  PRINT statement that outputs the text "HELLO WORLD" to the console.
   Palabra reservada que **muestra texto en pantalla** o envía salida a un dispositivo de salida estándar.
   El texto debe ir entre comillas.
 * **`"Hola mundo desde COBOL uwu"`**:
