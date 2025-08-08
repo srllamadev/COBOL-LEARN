@@ -4,41 +4,40 @@
 
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
-       SPECIAL-NAMES.
-           CONSOLE IS CRT.
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        01  NUMERO          PIC 9(2) VALUE 42.
+       01  RETURN-CODE     PIC S9(9) BINARY.
 
        PROCEDURE DIVISION.
-       COMMENT Limpiar pantalla comando dependiente sistema
-           DISPLAY " " BLANK SCREEN.
+      * Limpiar pantalla (alternativa portable)
+           CALL "SYSTEM" USING "clear" RETURNING RETURN-CODE
+           IF RETURN-CODE NOT = 0
+              CALL "SYSTEM" USING "cls" RETURNING RETURN-CODE
+           END-IF.
 
-       COMMENT Imprimir mensaje básico
-           DISPLAY "¡Hola, Twitch!".
+      * Imprimir mensaje básico
+           DISPLAY "¡Hola, Cobol!".
 
-       COMMENT Comillas simples vs dobles
-           DISPLAY 'Esto también funciona con una comilla'.
-
-       COMMENT Múltiples elementos con espacio
+      * Múltiples elementos con espacio
            DISPLAY "Python" SPACE "es" SPACE "genial".
 
-       COMMENT Separador personalizado (equivalente a sep)
+      * Separador personalizado (equivalente a sep)
            DISPLAY "Python-es-brutal".
 
-       COMMENT Control de fin de línea (equivalente a end)
-           DISPLAY "Esto se imprime" WITH NO ADVANCING.
+      * Control de fin de línea (equivalente a end)
+           DISPLAY "Esto se imprime " WITH NO ADVANCING
            DISPLAY "en una línea".
 
-       COMMENT Imprimir número
+      * Imprimir número
            DISPLAY NUMERO.
 
-       COMMENT Comillas dentro de cadenas
+      * Comillas dentro de cadenas
            DISPLAY 'Esto es una "pulgada" dentro de comillas simples'.
            DISPLAY "Esto es una ""pulgada"" dentro de comillas dobles".
 
-       COMMENT Triple comillas (simuladas)
+      * Triple comillas (simuladas)
            DISPLAY "Esto es una ""pulgada"" dentro de triple comillas".
 
            STOP RUN.
