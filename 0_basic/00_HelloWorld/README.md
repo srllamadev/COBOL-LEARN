@@ -1,28 +1,29 @@
-## Compilación y Ejecución
+# Compilation and Execution
+## To compile and run the program, use:
 
-# Para compilar y ejecutar el programa, usa:
-# Para ejecutar
+### To run
+
 ```cobol
 cobc -x HOLA.cbl
 ./HOLA
 ```
-# Formato Libre
-# Si prefieres mantener los caracteres especiales, compila con:
+## Free Format
+### If you prefer to keep the special characters, compile with:
 
 ```cobol
 cobc -x -free HOLA.cbl
 ```
 
-# Explicación línea por línea del código COBOL
+# Line by line explanation of the COBOL code
 
 ```cobol
        IDENTIFICATION DIVISION.
 ```
 
 * **`IDENTIFICATION DIVISION`**:
-  - División obligatoria en todo programa COBOL.
-  - Sirve para identificar el programa y contiene información descriptiva.
-  - Es la primera división que debe aparecer en un programa COBOL.
+- Mandatory division in all COBOL programs.
+- It serves to identify the program and contains descriptive information.
+- It is the first division that must appear in a COBOL program.
 
 ---
 
@@ -33,6 +34,9 @@ cobc -x -free HOLA.cbl
 * **`PROGRAM-ID`**:
   Palabra reservada para declarar el **nombre del programa**.
   Después de esta palabra, se escribe el identificador (en este caso `HOLA`) que representa al programa.
+
+  Reserved word to declare the **program name**. After this word, the identifier (in this case `HOLA`) that represents the program is written.
+
 * **`HOLA`**:
   Nombre asignado al programa. No puede contener espacios y suele escribirse en mayúsculas por convención.
 
@@ -78,24 +82,6 @@ cobc -x -free HOLA.cbl
   El texto debe ir entre comillas.
 * **`"Hola mundo desde COBOL uwu"`**:
   Cadena de texto que se imprime tal cual en pantalla.
-
----
-
-```cobol
-           DISPLAY "Hola ".
-```
-
-* Igual que la línea anterior, pero mostrando solo la palabra **Hola** seguida de un espacio.
-
----
-
-```cobol
-           DISPLAY "Test update github".
-```
-
-* Otra instrucción `DISPLAY`, esta vez mostrando el texto `"Test update github"`.
-  Útil para verificar cambios en versiones de control como GitHub.
-
 ---
 
 ```cobol
