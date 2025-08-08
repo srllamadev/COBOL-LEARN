@@ -56,8 +56,8 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`DATA DIVISION`**:
-  División en la que se definen todas las variables, constantes, registros y estructuras de datos que el programa utilizará.
-  En este ejemplo, no se declaran datos, pero la división se incluye por estructura estándar.
+  Division in which all variables, constants, registers, and data structures that the program will use are defined.
+  In this example, no data is declared, but the division is included by standard structure.
 
 ---
 
@@ -66,8 +66,8 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`PROCEDURE DIVISION`**:
-  División donde se escribe el **código ejecutable** del programa.
-  Contiene las instrucciones que el compilador procesará en tiempo de ejecución.
+  Division where the **executable code** of the program is written.
+  Contains the instructions that the compiler will process at runtime.
 
 ---
 
@@ -77,10 +77,10 @@ cobc -x -free HOLA.cbl
 
 * **`DISPLAY`**:
   PRINT statement that outputs the text "HELLO WORLD" to the console.
-  Palabra reservada que **muestra texto en pantalla** o envía salida a un dispositivo de salida estándar.
-  El texto debe ir entre comillas.
+  Reserved word that **displays text on the screen** or sends output to a standard output device.
+  Text must be enclosed in quotation marks.
 * **`"Hola mundo desde COBOL uwu"`**:
-  Cadena de texto que se imprime tal cual en pantalla.
+  Text string that is printed as is on the screen.
 ---
 
 ```cobol
@@ -88,20 +88,18 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`STOP RUN`**:
-  Palabra reservada que indica **fin de la ejecución del programa**.
-  Libera recursos y retorna el control al sistema operativo.
+  Reserved word that indicates **fin de la ejecución del programa**.
+  Frees up resources and returns control to the operating system.
 
 ---
 
-## 📌 Resumen visual de las divisiones en COBOL
+## Visual summary of divisions in COBOL
 
-| División           | Propósito                                                         |
+| Distribution           | Purpose                                                         |
 | ------------------ | ----------------------------------------------------------------- |
-| **IDENTIFICATION** | Identificación y metadatos del programa.                          |
-| **ENVIRONMENT**    | Descripción del entorno y configuración de archivos/dispositivos. |
-| **DATA**           | Declaración de variables y estructuras de datos.                  |
-| **PROCEDURE**      | Código ejecutable e instrucciones que realizará el programa.      |
+| **IDENTIFICATION** |Program identification and metadata.                          |
+| **ENVIRONMENT**    | Environment description and file/device configuration. |
+| **DATA**           | Declaration of variables and data structures.                  |
+| **PROCEDURE**      | Executable code and instructions that the program will carry out.      |
 
 ---
-
-Si quieres, puedo hacerte **otra versión del mismo documento pero con un diagrama visual** para que en tu GitHub sea más amigable y atractivo.
