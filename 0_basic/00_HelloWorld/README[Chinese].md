@@ -4,14 +4,14 @@
 ### 运行
 
 ```cobol
-cobc -x HOLA.cbl
-./HOLA
+cobc -x HELLO.cbl
+./HELLO
 ```
 ## 自由格式
 ### 如果你更喜欢保留特殊字符，请使用：
 
 ```cobol
-cobc -x -free HOLA.cbl
+cobc -x -free HELLO.cbl
 ```
 
 # COBOL 代码逐行解释
@@ -72,14 +72,14 @@ cobc -x -free HOLA.cbl
 ---
 
 ```cobol
-           DISPLAY "Hola mundo desde COBOL uwu".
+           DISPLAY "HELLO WORLD".
 ```
 
 * **`DISPLAY`**:
   输出语句，将文本 "HELLO WORLD" 打印到控制台。
   保留字，用于 **在屏幕上显示文本** 或将输出发送到标准输出设备。
   文本必须用引号括起来。
-* **`"Hola mundo desde COBOL uwu"`**:
+* **`"HELLO"`**:
   作为文本字符串直接打印在屏幕上的内容。
 ---
 
