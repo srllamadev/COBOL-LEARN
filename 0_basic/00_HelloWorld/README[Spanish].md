@@ -4,14 +4,14 @@
 ### Para ejecutar
 
 ```cobol
-cobc -x HOLA.cbl
-./HOLA
+cobc -x HELLO.cbl
+./HELLO
 ```
 ## Formato Libre
 ### Si prefieres mantener los caracteres especiales, compila con:
 
 ```cobol
-cobc -x -free HOLA.cbl
+cobc -x -free HELLO.cbl
 ```
 
 # Explicación línea por línea del código COBOL
@@ -28,7 +28,7 @@ cobc -x -free HOLA.cbl
 ---
 
 ```cobol
-       PROGRAM-ID. HOLA.
+       PROGRAM-ID. HELLO.
 ```
 
 * **`PROGRAM-ID`**:
