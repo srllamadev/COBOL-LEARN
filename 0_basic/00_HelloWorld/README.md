@@ -2,18 +2,16 @@
 
 # Para compilar y ejecutar el programa, usa:
 # Para ejecutar
-```bash
+```cobol
 cobc -x HOLA.cbl
 ./HOLA
 ```
 # Formato Libre
 # Si prefieres mantener los caracteres especiales, compila con:
 
-```bash
+```cobol
 cobc -x -free HOLA.cbl
 ```
-
----
 
 # Explicación línea por línea del código COBOL
 
@@ -22,9 +20,9 @@ cobc -x -free HOLA.cbl
 ```
 
 * **`IDENTIFICATION DIVISION`**:
-  División obligatoria en todo programa COBOL.
-  Sirve para identificar el programa y contiene información descriptiva.
-  Es la primera división que debe aparecer en un programa COBOL.
+  - División obligatoria en todo programa COBOL.
+  - Sirve para identificar el programa y contiene información descriptiva.
+  - Es la primera división que debe aparecer en un programa COBOL.
 
 ---
 
