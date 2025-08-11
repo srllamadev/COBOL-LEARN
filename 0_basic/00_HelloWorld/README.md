@@ -4,14 +4,14 @@
 ### To run
 
 ```cobol
-cobc -x HOLA.cbl
-./HOLA
+cobc -x HELLO.cbl
+./HELLO
 ```
 ## Free Format
 ### If you prefer to keep the special characters, compile with:
 
 ```cobol
-cobc -x -free HOLA.cbl
+cobc -x -free HELLO.cbl
 ```
 
 # Line by line explanation of the COBOL code
@@ -28,12 +28,12 @@ cobc -x -free HOLA.cbl
 ---
 
 ```cobol
-       PROGRAM-ID. HOLA.
+       PROGRAM-ID. HELLO.
 ```
 
 * **`PROGRAM-ID`**:
 
-  Reserved word to declare the **program name**. After this word, the identifier (in this case `HOLA`) that represents the program is written.
+  Reserved word to declare the **program name**. After this word, the identifier (in this case `HELLO`) that represents the program is written.
 
 * **`HELLO`**:
   Nombre asignado al programa. No puede contener espacios y suele escribirse en mayúsculas por convención.
@@ -72,14 +72,14 @@ cobc -x -free HOLA.cbl
 ---
 
 ```cobol
-           DISPLAY "Hola mundo desde COBOL uwu".
+           DISPLAY "HELLO mundo desde COBOL uwu".
 ```
 
 * **`DISPLAY`**:
   PRINT statement that outputs the text "HELLO WORLD" to the console.
   Reserved word that **displays text on the screen** or sends output to a standard output device.
   Text must be enclosed in quotation marks.
-* **`"Hola mundo desde COBOL uwu"`**:
+* **`"HELLO mundo desde COBOL uwu"`**:
   Text string that is printed as is on the screen.
 ---
 
