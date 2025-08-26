@@ -3,15 +3,16 @@
 
 ### To run
 
-```cobol
+```bash
 cobc -x HELLO.cbl
 ./HELLO
 ```
 ## Free Format
 ### If you prefer to keep the special characters, compile with:
 
-```cobol
+```bash
 cobc -x -free HELLO.cbl
+./HELLO
 ```
 
 # Line by line explanation of the COBOL code
