@@ -4,7 +4,7 @@ Welcome to **COBOL**, the ultimate guide to learning **COBOL (Common Business-Or
 Whether you're a complete beginner or a developer curious about legacy systems, this repository will help you understand the language that still powers **banks, governments, and large corporations** around the world.
 
 ---
-# Topics
+# Topicss
 
 ### **1. Introduction to COBOL**
 
@@ -54,61 +54,6 @@ Whether you're a complete beginner or a developer curious about legacy systems, 
 * COBOL and Cloud migration
 * Using COBOL with Micro Focus or GnuCOBOL
 
----
-
-## 🛠 Tools & Setup
-
-We will use **GnuCOBOL** (open-source) for local practice.
-You’ll learn how to:
-
-* Install GnuCOBOL on Linux/Windows/macOS
-* Compile and run COBOL programs
-* Use mainframe-like environments (optional)
-
----
-
-## 🎯 Who Is This For?
-
-* Beginners in programming
-* Developers curious about **legacy systems**
-* Professionals who want to **boost their career in banking, finance, and enterprise systems**
-
----
-
-## ✅ Roadmap
-
-```text
-[✔] 1. Introduction
-[✔] 2. Basics of COBOL
-[ ] 3. Data Handling
-[ ] 4. Control Structures
-[ ] 5. File Handling
-[ ] 6. Advanced COBOL Concepts
-[ ] 7. COBOL in the Enterprise
-[ ] 8. Modern COBOL and Integration
-```
-
----
-
-## 💡 Why This Repo?
-
-This repository is **hands-on**, with:
-
-* Practical examples
-* Real-world exercises
-* Challenges and projects
-* Guidance to work with COBOL in modern environments
-
----
-
-## 🚀 Let’s Get Started!
-
-Clone the repo and start your COBOL journey:
-
-```bash
-git clone https://github.com/your-username/cobol-mastery.git
-cd cobol-mastery
-```
 
 ---
 

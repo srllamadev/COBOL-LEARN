@@ -1,0 +1,11 @@
+Add examples of road map of 
+---
+
+## 🛠 Tools & Setup
+
+We will use **GnuCOBOL**, **VSCODE**  (open-source) for local practice.
+You’ll learn how to:
+
+* Install GnuCOBOL on Linux/Windows/macOS
+* Compile and run COBOL programs
+* Use mainframe-like environments (optional)
