@@ -1,20 +1,10 @@
 # COBOL Mastery: From Zero to Expert 🚀
 
-Welcome to **COBOL Mastery**, the ultimate guide to learning **COBOL (Common Business-Oriented Language)** from scratch!
+Welcome to **COBOL**, the ultimate guide to learning **COBOL (Common Business-Oriented Language)** from scratch!
 Whether you're a complete beginner or a developer curious about legacy systems, this repository will help you understand the language that still powers **banks, governments, and large corporations** around the world.
 
 ---
-
-## ✅ Why Learn COBOL?
-
-COBOL might be old, but it's **not obsolete**!
-It runs **70% of global business transactions** and **95% of ATM swipes**. With companies seeking modernization and COBOL experts in demand, learning this language can open **high-paying career opportunities**.
-
----
-
-## 📚 What You'll Learn
-
-This course is designed as a **step-by-step roadmap**, taking you from zero knowledge to advanced COBOL programming skills:
+# Topics
 
 ### **1. Introduction to COBOL**
 
